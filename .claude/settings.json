@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(pip *)",
+      "Bash(pytest *)",
+      "Bash(git *)",
+      "Read(*)",
+      "Write(src/*, tests/*, .claude/*)",
+      "Edit(src/*, tests/*, main.py)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)"
+    ]
+  },
+  "excludeFiles": [
+    "__pycache__",
+    "*.pyc",
+    ".env",
+    "*.pem"
+  ]
+}

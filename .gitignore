@@ -1,0 +1,5 @@
+out.txt
+__pycache__/
+*.pyc
+.env
+*.pem
